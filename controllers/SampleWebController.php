@@ -16,4 +16,14 @@ class SampleWebController extends WebController
     {
         return "Voilà votre paramètre : $parametre";
     }
+
+    function connect(): string
+    {
+        return Template::render("views/global/connect.php", array());
+    
+    }
+
+        function create(): string
+        {
+            return Template::render("views/global/create.php", array());    }
 }

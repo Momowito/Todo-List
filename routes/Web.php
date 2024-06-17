@@ -16,6 +16,9 @@ class Web
         Route::Add('/', [$main, 'home']);
         Route::Add('/exemple', [$main, 'exemple']);
         Route::Add('/exemple2/{parametre}', [$main, 'exemple']);
+        Route::Add('/connect', [$main, 'connect']);
+        Route::Add('/create', [$main, 'create']);
+
 
         // Appel la fonction inline dans le routeur.
         // Utile pour du code très simple, où un tes, l'utilisation d'un contrôleur est préférable.
