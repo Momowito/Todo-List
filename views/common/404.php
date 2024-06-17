@@ -33,6 +33,8 @@
             color: var(--text-color);
         }
 
+
+
         h3 {
             text-align: center;
         }
@@ -53,7 +55,8 @@
 </head>
 <body>
 <div class="text-center">
-    <h1>Ressource introuvable</h1>
+    <h1>Ressource introuvable 😢</h1>
+    <img src="../../public/style/raccoon-sad.gif"     width="400" height="500" alt="Racoon Sad">
     <h3><?= $target ?></h3>
     <a href="/">Retour</a>
 </div>
